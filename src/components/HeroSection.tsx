@@ -21,7 +21,7 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${featuredMovie.backdrop})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/50 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent px-[7px]" />
       </div>
 
       {/* Content */}
